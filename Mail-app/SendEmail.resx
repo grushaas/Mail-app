@@ -117,29 +117,50 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="bt_createEmail.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="bt_exit.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bt_exit.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="bt_back.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAE4AAABOCAYAAACOqiAdAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAdxJREFUeF7tmtFOgzAUQPcj83kP+rLtT3R+2vQjdP6VRn9CT5M2IYQNxgoCPSe5
-        GWkLvfesYzRhJSIiIiIiIiIiIiIiIgtku90+73a7Dz5f9/v9OjYPDnPehTn5PIUcYvM8iNJ+K/GNvPvY
-        PRhhjjBXbe6n2D19SPZUSz7EoPLOSAvxHodMn/hTqRcQYhB5F6SFOMZh04dC1iR8rpCs8lqkhblGu79m
-        gaQ3xGeliGr8EA9xaG+4xobV/VW5bvY5/gUSH0we5y5TWoICssvjnGVLS1BINnmMLUNagoJulseYsqQl
-        KKy3PPrKlJagwKvl0Va2tASFdpbHsdKqUHCrPEJpTbQ99cdo7Mu5+5glSLi08pqi3JVWBxFd5SmtDkLa
-        5CmtCaRc+iMIobg6CGmTlkJ5CUR0lZZCeT6O9IDiWx9uic47jCKg4M47Ao6VF6DQztIStJUtjwKvlpag
-        r0x5FNZbWoIxZcmjoJulJRhbhjwKySYtwTnLlkcB2aUlOHeZ8kh8MGkJrrEseSR8R4zy1N+2+6B/Pq9A
-        sNJ86aYPJDuZ17z4Et/ikOlDwodaAaNsypvk0fYYu+cBSQd5YeUdSX60+0yYi1X2Euc+xGYRERERERER
-        ERERERFZDqvVH2zoEMnJfZpOAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAACFFJREFUeF7t
+        3c2KU2cAx2EVilfRnHeSYDfuvD4/Vq3gurfgYkq78kakLnobooUOLtoT56wkUnASOPH3PPCCzCTnLH9/
+        zYf3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoOzRZrPdTdOr3TTezefv2zP9efjZ4XfLwwCA78T9
+        /Rgv5uDfzOffr5yb7WY8Pzz29ikAwMV68uTJD7sxro8E/2vn9fw0IwAALtXn+E/jjy8C/79nuxnPlksA
+        AJfkW+O/nBvvCQCAC3PH+H8++zFeLpcDANbuFPFfztvlkgDAmp0w/vOZPiyXBQDW6rTx/3zeL5cGANbo
+        DPE/HC8BAMBanSn+3gQIAGt1rvjPx8cAAWCNzhj/+Vw9XW4DAKzFWeM/xvV8C18FDABrcua/+b/Z7/cP
+        l1sBAGsg/gAQI/4AECP+ABAj/gAQI/4AECP+ABAj/gAQI/4AECP+ABAj/gAQI/4AECP+ABAj/gAQI/4A
+        ECP+ABAj/gAQI/4AECP+ABAj/gAQI/4AECP+ABAj/gAQI/4AECP+ABAj/gAQI/4AECP+ABAj/gAQI/4A
+        ECP+ABAj/gAQI/4AECP+ABAj/gAQI/4AECP+ABAj/gAQI/4AECP+ABAj/gAQc974j98P119uBQCsgfgD
+        QIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgD
+        QIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgD
+        QIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgD
+        QIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgD
+        QIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgD
+        QIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAjPgDQIz4A0CM+ANAz4Pd
+        GNdHwn2KI/4AsEb7MV4cCfcpjvgDwBr9NE1Xc6j/+SLcpzjiDwBrtZumV0fifdcj/gCwZnOs330R77se
+        8QeAtdtO4+ORiH/rEX8AuAQGAAAEzdH2EgAA1HgTIAAEjdkc7DN8DPDqzX6/f7jcBgBYm+1mPD8e8Tsf
+        /xIAACt231cBA0DQIdJzrM/0nwF5OQAAVssIAIAoIwAAoowAAIgyAgAgyggAgCgjAACijAAAiDICACDK
+        CACAKCMAAKKMAACIMgIAIMoIAIAoIwAAoowAAIgyAgAgyggAgCgjAACijAAAiDICACDKCACAKCMAAKKM
+        AACIMgIAIMoIAIAoIwAAoowAAIgyAgAgyggAgCgjAACijAAAiDICACDKCACAKCMAAKKMAACIMgIAIMoI
+        AIAoIwAAoowAAIgyAgAgyggAgCgjAACijAAAiDICACDKCACAKCMAAKKMAACIMgIAIMoIAIAoIwAAoowA
+        AIgyAgAgyggAgCgjAACijAAAiDICACDKCACAKCMAAKKMAACIMgIAIMoIAIAoIwAAoowAAIgyAgAgyggA
+        gCgjAACijAAAiDICACDKCACAKCMAAKKMAACIMgIAIMoIAIAoIwAAoowAAIgyAgAgyggAgCgjAACijAAA
+        iDICACDKCACAKCMAAKKMAACIMgIAIMoIAIAoIwAAoowAAIgyAgAgyggAgCgjAACijAAAiDICACDKCACA
+        KCMAAKKMAACIMgIAIMoIAIAoIwAAoowAAIgyAgAgyggAgCgjAACijAAAiDICACDKCACAKCMAAKKMAACI
+        MgIAIMoIAIAoIwAAoowAAIgyAgAgyggAgCgjAACijAAAiDICACDKCACAKCMAAKKMAACIMgIAIMoIAIAo
+        IwAAoowAAIgyAgAgyggAgCgjAACijAAAiDICACDKCACAKCMAAKKMAACIOusIGON6vsX92zsBAKtyzhGw
+        3Yxny20AgLU54wi4ebTZbJfbAABrc64RsB/j5XILAGCNzjQC3i6XBwDW6vQjYPqwXBoAWLMTj4D3y2UB
+        gLU74QjwEgAAXJJTjABvAgSAC3THEeBjgABwqb59BFw9XS4BAFyiwwjYTtNvx0N/9Lyen+argAHgO/Bg
+        vxm/7Kbp05HgL2f6tN2Mnw+PvX0KAPBd2P24e7ydrn6dg//XdhofD+f2z/PP5t8tDwMAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAALhQ9+79B9+HQ7QX2mZVAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
+  <metadata name="bt_sendLetter.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
   </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

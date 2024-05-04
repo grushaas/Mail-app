@@ -51,7 +51,7 @@
             // 
             this.bt_choosePostOffice.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.bt_choosePostOffice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(72)))), ((int)(((byte)(72)))));
-            this.bt_choosePostOffice.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.bt_choosePostOffice.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.bt_choosePostOffice.FlatAppearance.BorderSize = 0;
             this.bt_choosePostOffice.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.bt_choosePostOffice.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(78)))), ((int)(((byte)(78)))));
@@ -64,6 +64,7 @@
             this.bt_choosePostOffice.TabIndex = 8;
             this.bt_choosePostOffice.Text = "Выбрать";
             this.bt_choosePostOffice.UseVisualStyleBackColor = false;
+            this.bt_choosePostOffice.Click += new System.EventHandler(this.bt_choosePostOffice_Click);
             // 
             // bt_back
             // 
@@ -93,6 +94,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ChoosePostOffice";
             this.Text = "Почта- выбор почтового отделения";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ChoosePostOffice_FormClosing);
             this.ResumeLayout(false);
 
         }

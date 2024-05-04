@@ -151,6 +151,9 @@
     <EmbeddedResource Include="ChoosePostOffice.resx">
       <DependentUpon>ChoosePostOffice.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CreateEmail.resx">
+      <DependentUpon>CreateEmail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -171,6 +174,9 @@
     </Compile>
     <EmbeddedResource Include="RegistrationForm.resx">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendEmail.resx">
+      <DependentUpon>SendEmail.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

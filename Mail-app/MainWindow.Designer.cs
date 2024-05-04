@@ -60,6 +60,7 @@
             bt_createEmail.TabIndex = 8;
             bt_createEmail.Text = "Создать письмо";
             bt_createEmail.UseVisualStyleBackColor = false;
+            bt_createEmail.Click += new System.EventHandler(this.bt_createEmail_Click);
             // 
             // bt_exit
             // 
@@ -127,6 +128,7 @@
             this.bt_sendEmail.TabIndex = 7;
             this.bt_sendEmail.Text = "Отправить письмо";
             this.bt_sendEmail.UseVisualStyleBackColor = false;
+            this.bt_sendEmail.Click += new System.EventHandler(this.bt_sendEmail_Click);
             // 
             // lb_fio
             // 
@@ -157,6 +159,7 @@
             this.lbox_emails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbox_emails.ForeColor = System.Drawing.Color.White;
             this.lbox_emails.FormattingEnabled = true;
+            this.lbox_emails.HorizontalScrollbar = true;
             this.lbox_emails.ItemHeight = 20;
             this.lbox_emails.Location = new System.Drawing.Point(24, 112);
             this.lbox_emails.Name = "lbox_emails";
@@ -170,9 +173,9 @@
             this.lb_postOffice.ForeColor = System.Drawing.Color.White;
             this.lb_postOffice.Location = new System.Drawing.Point(24, 80);
             this.lb_postOffice.Name = "lb_postOffice";
-            this.lb_postOffice.Size = new System.Drawing.Size(147, 17);
+            this.lb_postOffice.Size = new System.Drawing.Size(228, 17);
             this.lb_postOffice.TabIndex = 7;
-            this.lb_postOffice.Text = "Почтовое отделение";
+            this.lb_postOffice.Text = "Почтовое отделение не выбрано";
             // 
             // MainWindow
             // 
@@ -191,6 +194,7 @@
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Почта";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWindow_FormClosing);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

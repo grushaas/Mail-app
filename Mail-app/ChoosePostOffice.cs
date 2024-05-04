@@ -9,6 +9,9 @@ namespace Mail_app
 {
     public partial class ChoosePostOffice : Form
     {
+        public string chooseId { get; private set; }
+        private bool closeThisForm = true;
+
         public ChoosePostOffice()
         {
             InitializeComponent();
@@ -41,11 +44,26 @@ namespace Mail_app
             }
         }
 
+        private void bt_choosePostOffice_Click(object sender, EventArgs e)
+        {
+            chooseId = lbox_emails.Text.Trim();
+            bt_back_Click(sender, e);
+        }
+
         private void bt_back_Click(object sender, EventArgs e)
         {
+            closeThisForm = false;
             var main = (MainWindow)Tag;
             main.Show();
             Close();
+        }
+
+        private void ChoosePostOffice_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(closeThisForm)
+            {
+                Application.Exit();
+            }
         }
     }
 }
