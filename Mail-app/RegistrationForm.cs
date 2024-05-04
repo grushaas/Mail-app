@@ -6,7 +6,7 @@ namespace Mail_app
 {
     public partial class RegistrationForm : Form
     {
-        private bool closeMainForm = true;
+        private bool closeThisForm = true;
 
         private string firstName = "";
         private string lastName = "";
@@ -77,20 +77,6 @@ namespace Mail_app
             }
         }
 
-        private void bt_back_Click(object sender, EventArgs e)
-        {
-            closeMainForm = false;
-            var form1 = (Form1)Tag;
-            form1.Show();
-            Close();
-        }
-
-        private void RegistrationForm_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            var form1 = (Form1)Tag;
-            form1.Show();
-        }
-
         private void bt_confirm_Click(object sender, EventArgs e)
         {
             if (tb_firstName.Text == "" || tb_lastName.Text == "" || tb_patronymic.Text == "" || tb_password.Text == "" || tb_login.Text == "")
@@ -115,6 +101,21 @@ namespace Mail_app
                 {
                     EnteringData();
                 }
+            }
+        }
+        private void bt_back_Click(object sender, EventArgs e)
+        {
+            closeThisForm = false;
+            var form1 = (Form1)Tag;
+            form1.Show();
+            Close();
+        }
+
+        private void RegistrationForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(closeThisForm)
+            {
+                Application.Exit();
             }
         }
     }

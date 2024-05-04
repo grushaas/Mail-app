@@ -6,7 +6,7 @@ namespace Mail_app
 {
     public partial class LoginForm : Form
     {
-        private bool closeMainForm = true;
+        private bool closeThisForm = true;
         public string login = "";
         public string password = "";
 
@@ -51,20 +51,10 @@ namespace Mail_app
 
         private void bt_back_Click(object sender, EventArgs e)
         {
-            closeMainForm = false;
+            closeThisForm = false;
             var form1 = (Form1)Tag;
             form1.Show();
             Close();
-        }
-
-        private void LoginForm_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            if(closeMainForm)
-            {
-                var form1 = (Form1)Tag;
-                form1.Dispose();
-                form1.Close();
-            }
         }
 
         private void bt_confirm_Click(object sender, EventArgs e)
@@ -73,6 +63,14 @@ namespace Mail_app
             password = tb_password.Text;
 
             CheckLoginPasswordRecords();
+        }
+
+        private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(closeThisForm)
+            {
+                Application.Exit();
+            }
         }
     }
 }
