@@ -42,6 +42,9 @@ namespace Mail_app
             {
                 MessageBox.Show(ex.Message);
             }
+
+            MessageBox.Show("Вы зарегистрированы!");
+            bt_back_Click(this, new EventArgs());
         }
 
         private bool CheckLoginPasswordRecords()
@@ -55,13 +58,12 @@ namespace Mail_app
                 con.Open();
                 var cmd = new NpgsqlCommand();
                 cmd.Connection = con;
-                MessageBox.Show("Мы тут!");
                 cmd.CommandText = $"SELECT login, passwordd FROM Peoples WHERE login = @login OR Passwordd = @password";
                 cmd.Parameters.AddWithValue("login", login);
                 cmd.Parameters.AddWithValue("password", password);
                 NpgsqlDataReader reader = cmd.ExecuteReader();
 
-                if (reader.Rows == 1)
+                if (reader.HasRows)
                 {
                     return true;
                 }
